@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website Title</title>
+    <link rel="stylesheet" type"text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>Vacuum Cleaner Complaints</h1>
+    </header>
+
+    <main>
+        <section>
+            <button type="button" id="new-post">Add a new review</button>
+        </section>
+
+        <div id="Model">
+            <form id="post-container">
+                <p id="post-header">Post Header</p>
+                <input type="text" id="new-post-header">
+    
+                <p id="post-content">Post Content Here</p>
+                <textarea id="new-post-content"></textarea>
+    
+                <p id="author-name">Author Name Here</p>
+                <input type="text" id="new-post-author"></br>
+                
+                <input type="radio" id="positive" name="review-type" value ="positive">
+                <label for="positive">Positive</label>
+                <input type="radio" id="negative" name="review-type" value = "negative">
+                <label for="negative">Negative</label>
+                <input type="radio" id="neutral" name="review-type" value = "neutral">
+                <label for="neutral">Neutral</label></br>
+                <button type="button" id="add-post">Post</button>
+            </form>
+        </div>
+
+        <section id="complaint-list-container">
+            <ol id="complaint-list">
+
+            </ol>
+        </section>
+    </main>
+
+
+    
+
+
+    <script src="js/scripts.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "open Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+#post-container {
+    flex: 1;
+    padding: 20px;
+}
+
+#Model {
+    display: none;
+}
